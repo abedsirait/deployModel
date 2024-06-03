@@ -12,5 +12,4 @@ RUN pip install -r requirements.txt
 COPY . .
 
 
-# Jalankan aplikasi
 CMD ["python", "predict.py"]
